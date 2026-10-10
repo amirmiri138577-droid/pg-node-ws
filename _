@@ -1,0 +1,11 @@
+# PasarGuard Node API
+NODE_PUBLIC_HOST=node.example.com
+SERVICE_PORT=62050
+SERVICE_PROTOCOL=grpc
+API_KEY=xxxxxxxx-xxxx-4xxx-8xxx-xxxxxxxxxxxx
+
+# Optional Railway HTTP/WebSocket gateway
+WEBSOCKET_ENABLED=false
+WEBSOCKET_PORT=8080
+WEBSOCKET_PATH=/pgws
+WEBSOCKET_BACKEND=127.0.0.1:10000
